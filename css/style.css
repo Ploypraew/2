@@ -1,0 +1,105 @@
+/* ตกแต่งข้อความหน้า index.html */
+.t1{
+    color: #934A5F;
+    font-size: 25px;
+    text-align :center;
+    font-weight: bold; 
+    font-family: "Open Sans", sans-serif;
+    letter-spacing:1.5px;
+    text-decoration: underline;
+}
+
+.p1{
+    color: #0C4A60;
+    font-size: 20px;
+    font-family: "Maitree", serif;
+    margin: 20px 10px;
+    line-height: 1;
+    
+    
+}
+.n1{
+    color: #7F056E;
+    font-size: 18px;
+    font-family: "Maitree", serif;
+    line-height: 2;
+    letter-spacing: 1;
+    
+}
+/* ตกแต่งข้อความหน้า myprofile.html */
+.t2{
+    color: rgb(160, 6, 78);
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    text-align :center;
+    font-weight: bold;
+    letter-spacing:1.5px;
+    text-decoration: underline;
+}
+.p2{
+    color: rgb(214, 52, 133);
+    font-size: 18px;
+    font-family: "Maitree", serif;
+    margin: 20px 10px;
+    line-height: 1;
+    
+    
+}
+
+/* ตกแต่งข้อความหน้า subject.html */
+.t3{
+    color: rgb(122, 10, 10);
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    text-align :center;
+    font-weight: bold;
+    letter-spacing:1.5px;
+    text-decoration: underline;
+}
+/* จัดรูปภาพหน้า subject.html */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-gap: 10px; 
+  }
+  
+.gallery img {
+    width: 70%;
+    height: auto; 
+    margin: auto auto;
+    object-fit: cover;
+    border-radius : 20px;
+    
+}
+/* ตกแต่งตาราง */
+table {
+    width: 80%; 
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+  }
+td {
+    text-align: center;
+  }
+tbody {
+    background-color: lightcyan ;
+}
+.th1{
+    background-color: hotpink;
+}
+
+.th2{
+    background-color: pink;
+}
+.y1{
+    background-color: lightskyblue;
+}
+/* กำหนดสีพื้นหลัง */
+body{
+    background-color: #F2EBE0;
+}
+
+/* กำหนดขนาด link หน้าเว็บ*/
+.link{
+    font-size: 18px;
+}
